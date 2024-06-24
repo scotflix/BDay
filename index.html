@@ -96,7 +96,20 @@
             overflow: hidden;
             animation: movePhoto 30s linear infinite;
         }
+        .photo1 {
+            min-width: 200px;
+            margin: 0 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            animation: movePhoto 30s linear infinite;
+            animation-direction: alternate;
+        }
         .photo img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .photo1 img {
             width: 100%;
             height: auto;
             display: block;
@@ -120,13 +133,34 @@
         Your browser does not support the audio element.
     </audio>
     <div class="message">
-        <p>Happy Birthday to <strong>Ma Fille,Zippy</strong>!</p>
+        <h1>Happy Birthday to <strong>Ma Fille,Zippy</strong>!</h1>
         <p>Your light brightens up our lives every day.</p>
+        <p>HAPPY TURNINGS!!!</p>
+        <p><strong>“Wishing you a birthday as bright and beautiful as your smile. Happy birthday,"</strong></p>
     </div>
     <div class="candle-container">
         <div class="candle">
             <div class="flame" id="flame"></div>
         </div>
+    </div>
+    <div class="photos">
+        <!-- Repeat this block for each photo -->
+        <div class="photo1">
+            <img src="./images/bebz.jpeg" alt="Photo 1">
+        </div>
+        <div class="photo1">
+            <img src="./images/bebz1.jpeg" alt="Photo 2">
+        </div>
+        <div class="photo1">
+            <img src="./images/bebz3.jpeg" alt="Photo 2">
+        </div>
+        <div class="photo1">
+            <img src="./images/bebz3.jpeg" alt="Photo 2">
+        </div><div class="photo1">
+            <img src="./images/bebz3.jpeg" alt="Photo 2">
+        </div>
+
+        <!-- Add more photos as needed -->
     </div>
     <div class="photos">
         <!-- Repeat this block for each photo -->
@@ -137,6 +171,11 @@
             <img src="./images/bebz1.jpeg" alt="Photo 2">
         </div>
         <div class="photo">
+            <img src="./images/bebz3.jpeg" alt="Photo 2">
+        </div>
+        <div class="photo">
+            <img src="./images/bebz3.jpeg" alt="Photo 2">
+        </div><div class="photo">
             <img src="./images/bebz3.jpeg" alt="Photo 2">
         </div>
 
